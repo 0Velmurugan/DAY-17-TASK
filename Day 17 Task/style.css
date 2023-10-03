@@ -1,0 +1,76 @@
+/* Add styling for the container and rows */
+.container {
+    padding-top: 20px;
+    background-color: #8b1fe367;
+
+}
+header{
+    background-color: #ab1aea;
+}
+
+/* Style the cards */
+.card {
+    border: 1px salmon;
+    border-radius: 1%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+  
+}
+
+.card-header {
+    background-color: #40136367;
+    font-weight: dark bold;
+}
+
+.card-body {
+    padding: 10px;
+   
+
+}
+
+/* Style the "Click for Weather" button */
+.btn-primary {
+    background-color: #2863f6;
+    text-align: center;
+    
+}
+
+.btn-primary:hover {
+    background-color: #00b31e;
+   
+}
+
+/* Center-align the button text */
+.btn-primary:focus {
+    text-align: center;
+    background-color: #0e4cea;
+    outline: none;
+  
+}
+
+/* Add some spacing between cards */
+.mb-4 {
+    margin-bottom: 15px;
+    text-align: center;
+   
+}
+
+/* Style the entire body background */
+body {
+    background-color: #a018da;
+}
+
+/* Center-align the card content */
+.card-title,
+.card-text {
+    text-align: center;  
+}
+
+.card-body{
+    background-color: aqua;
+}
+
